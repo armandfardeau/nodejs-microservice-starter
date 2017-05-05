@@ -18,6 +18,24 @@ This repository contains a full configuration that runs NodeJS RESTful API Micro
 You have to use the following command to start a development server:
 
 ```sh
+cd server && npm install
+```
+
+or if you use Yarn
+
+```sh
+cd server && yarn install
+```
+copy .env example file
+
+```sh
+mv .env.example .env
+```
+edit the file with your environnement variables
+
+Then run a development server
+
+```sh
 npm run dev
 ```
 
